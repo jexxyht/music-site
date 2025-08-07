@@ -1,6 +1,6 @@
 header {
 width: 100;
-
+padding:20px 8%;
 }
 
 
@@ -10,6 +10,9 @@ width: 100;
      display:flex;
      align-items: center;
      justify-content:space-between;
+     gap: 80px;
+     text-transform: uppercase;
+
 }
 
 .nav_lista{
