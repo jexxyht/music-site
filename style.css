@@ -39,4 +39,9 @@ header {
      font-size: 20px;
      color: blueviolet;
 
+
+}
+
+.nav_item a:hover {
+     color: black;
 }
