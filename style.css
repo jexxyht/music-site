@@ -6,34 +6,36 @@
 
 
 header {
-width: 100;
-padding:20px 8%;
+     width: 100;
+     padding: 20px 8%;
 }
+
 #logo {
      font-size: 1.5rem;
-     font-weight:600;
+     font-weight: 600;
 }
 
 
 
 
 .navbar {
-     width:100%;
+     width: 100%;
      font-size: larger;
-     display:flex;
+     display: flex;
      align-items: center;
-     justify-content:space-between;
+     justify-content: space-between;
      gap: 80px;
      text-transform: uppercase;
 
 }
 
-.nav_lista{
-     display:flex;
+.nav_lista {
+     display: flex;
      list-style: none;
 }
 
 .nav_item {
      font-size: 20px;
      color: blueviolet;
+
 }
