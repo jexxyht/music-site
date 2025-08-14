@@ -24,14 +24,15 @@ header {
      display: flex;
      align-items: center;
      justify-content: space-between;
-     gap: 80px;
-     text-transform: uppercase;
+     
 
 }
 
 .nav_lista {
      display: flex;
      list-style: none;
+     gap: 80px;
+     text-transform: uppercase;
 }
 
 .nav_item {
