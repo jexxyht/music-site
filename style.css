@@ -33,6 +33,7 @@ padding:20px 8%;
      list-style: none;
 }
 
-.nave_item {
+.nav_item {
      font-size: 20px;
+     color: blueviolet;
 }
