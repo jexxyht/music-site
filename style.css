@@ -55,7 +55,7 @@ header {
      color: blueviolet;
 }
 
-.nav_item a:hover {
+.nav_item:hover {
      color: black;
      text-decoration: underline;
 }
