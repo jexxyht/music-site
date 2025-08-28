@@ -33,7 +33,7 @@ header {
      
 
 }
-
+</t
 .nav_lista {
      display: flex;
      list-style: none;
@@ -62,7 +62,7 @@ min-height: calc(100vh - 91px);
 }
 
 section {
-     width: 100%;
+     width: 100%;</t
     padding: 20px 8%;
     display: flex;
 }
@@ -71,8 +71,4 @@ section {
      font-size: 4rem;
      color: black;
 
-}
-
-.titulocor {
-     color: blueviolet;
 }
