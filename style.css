@@ -8,6 +8,11 @@
 header {
      width: 100;
      padding: 20px 8%;
+     background-color: hotpink;
+     position: fixed;
+     top: 0;
+     left: 0;
+
 }
 
 #logo {
