@@ -15,12 +15,12 @@
   <header class="cabecalho">
     <nav class="navbar">
       <i class="fa-solid fa-moon" id="logo"> jexx1music</i>
-      <button class="menu-toggle" id="menuToggle"> 
+      <button class="menu-toggle" id="menuToggle">
         <span></span>
-      <span></span>
-      <span></span>
+        <span></span>
+        <span></span>
       </button>
-     
+
 
 
       <ul class="nav_lista" id="navLista">
@@ -36,50 +36,68 @@
 
   </header>
 
-<main class="conteudo">
- <section class="home">
-   <h1 class="titulo">
-    O melhor site de  <span class="titulocor">músicas </span> de Maravilha.
-   </h1>
- </section>
+  <main class="conteudo">
+    <section class="home">
+      <h1 class="titulo">
+        O melhor site de <span class="titulocor">músicas </span> de Maravilha.
+      </h1>
+    </section>
 
-  <section class="secao" id="sertanejo">
-   <div class="titulo_section">
-    <h1><i class="fa-solid fa-heart-crack"> sertanejo</i></h1>
-   </div>
+    <section class="secao" id="sertanejo">
+      <div class="titulo_section">
+        <h1><i class="fa-solid fa-heart-crack"> sertanejo</i></h1>
+      </div>
 
-  <ul class="moldura_videos">
-  <li class="video">
-<iframe width="1323" height="744" src="https://www.youtube.com/embed/TvgHPioJqAY" title="Diego &amp; Victor Hugo - Entregador de Flor (Ao Vivo em Brasília)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <ul class="moldura_videos">
 
 
-  </li>
+        <li>
+          <iframe width="1323" height="744" src="https://www.youtube.com/embed/TvgHPioJqAY"
+            title="Diego &amp; Victor Hugo - Entregador de Flor (Ao Vivo em Brasília)" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </li>
 
-  </ul>
+        <li>
+          <iframe width="1323" height="744" src="https://www.youtube.com/embed/u_N6qXApoPo"
+            title="Jorge e Mateus - 31/12 [ alta qualidade ]" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </li>
+        <li>
+          <iframe width="1323" height="744" src="https://www.youtube.com/embed/Uv7oK2r-yyE?list=RDUv7oK2r-yyE"
+            title="Jorge &amp; Mateus - 31/12 (Os Anjos Cantam) (Lyric Vídeo)" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </li>
 
-  </section>
 
 
-</main>
-<script>
-        // JavaScript para controlar o menu hambúrguer
-        const menuToggle = document.getElementById('menuToggle');
-        const navLista = document.getElementById('navLista');
-        
-        menuToggle.addEventListener('click', function() {
-            navLista.classList.toggle('active');
-            menuToggle.classList.toggle('active');
-        });
-        
-        // Fechar menu ao clicar em um item
-        const navItems = document.querySelectorAll('.nav_item');
-        navItems.forEach(item => {
-            item.addEventListener('click', function() {
-                navLista.classList.remove('active');
-                menuToggle.classList.remove('active');
-            });
-        });
-    </script>
+      </ul>
+
+    </section>
+
+
+  </main>
+  <script>
+    // JavaScript para controlar o menu hambúrguer
+    const menuToggle = document.getElementById('menuToggle');
+    const navLista = document.getElementById('navLista');
+
+    menuToggle.addEventListener('click', function () {
+      navLista.classList.toggle('active');
+      menuToggle.classList.toggle('active');
+    });
+
+    // Fechar menu ao clicar em um item
+    const navItems = document.querySelectorAll('.nav_item');
+    navItems.forEach(item => {
+      item.addEventListener('click', function () {
+        navLista.classList.remove('active');
+        menuToggle.classList.remove('active');
+      });
+    });
+  </script>
 
 </body>
 
