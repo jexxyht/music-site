@@ -93,6 +93,18 @@ header {
     color: blueviolet;
  }
 
+.secao {
+    padding-right: 8%;
+    padding-top: 2%;
+    margin-top: 20px;
+}
+
+.titulo_section{
+    color: var(--cor-secundaria-1)
+}
+
+
+
  /* Menu hambúrguer para mobile */
 .menu-toggle {
     display: none;
