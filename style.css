@@ -101,6 +101,30 @@ header {
 
 .titulo_section{
     color: var(--cor-secundaria-1)
+   font: size 1.5em;
+   text-align:left;
+   margin-bottom:20px
+
+
+}
+
+.moldura_video{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.video {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
 
 
