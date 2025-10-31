@@ -127,6 +127,13 @@ header {
     justify-content: center;
 }
 
+.video iframe{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    border: 4px solid var(--cor-primaria-2)
+}
+
 
 
  /* Menu hambúrguer para mobile */
