@@ -27,7 +27,7 @@
 header {
     width: 100%;
     padding: 20px 8%;
-    background-color: blueviolet;
+    background-color: var(--cor-primaria-2);
     position: fixed;
     top: 0;
     left: 0;
