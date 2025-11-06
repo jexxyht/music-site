@@ -64,7 +64,7 @@ header {
     transition: all 0.3s ease;
 }
  .nav_item:hover {
-    background-color:rgb(191, 4, 191) ;
+    background-color:rgb(118, 63, 207) ;
     color: rgb(155, 153, 153);
     text-decoration: underline;
  }
