@@ -24,6 +24,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     width: 100%;
     padding: 20px 8%;
